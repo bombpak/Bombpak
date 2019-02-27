@@ -111,7 +111,7 @@
 }
 .blog-card .description p:after {
   content: "";
-  background: #75D13B;
+  background: #fa2600;
   height: 6px;
   width: 40px;
   /*POSITION*/
@@ -120,7 +120,7 @@
   left: 0;
 }
 .blog-card .description a {
-  color: #75D13B;
+  color: #db1313;
   margin-bottom: 10px;
   float: right;
 }
