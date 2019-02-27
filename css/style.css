@@ -5,7 +5,7 @@
   -webkit-transition: height 0.3s ease;
   background: #fff;
   border-radius: 3px;
-  box-shadow: 0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 20px 45px -13px rgba(0, 0, 0, 0.3);
   margin: 0 auto 1.6%;
   overflow: hidden;
   position: relative;
@@ -13,6 +13,8 @@
   line-height: 1.45em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    
+    
 }
 .blog-card:hover .details {
   left: 0;
@@ -96,7 +98,7 @@
   margin: 0 0 10px 0;
 }
 .blog-card .description h2 {
-  color: #9b9b9b;
+  color: #0008ce;
   font-family: "Open Sans";
   line-height: 1.2em;
   text-transform: uppercase;
@@ -113,7 +115,7 @@
   content: "";
   background: #fa2600;
   height: 6px;
-  width: 40px;
+  width: 50px;
   /*POSITION*/
   position: absolute;
   top: 6px;
@@ -195,3 +197,4 @@
     bottom: 0;
   }
 }
+
