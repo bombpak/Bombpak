@@ -29,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   box-shadow: 0 0 25px gray;
-  height: 30px;}
+  height: 40px;}
 
 h3
 {border-bottom: 0px solid red;}
@@ -64,7 +64,7 @@ h3
 <body>
   <!--PEN CODE-->
     
-<div class="header" id="myHeader">
+<div class="header" id="myHeader" style="position : fixed; z-index : 100; ">
   
   <h3 style="color:white;font-family: 'Convergence', Helvetica;">         JoshUpdates.live | Short Event-By-Event News</h3>
   
@@ -72,10 +72,13 @@ h3
  
 <div class="blog-card">
 </div>
+    
+    <div class="blog-card">
+</div>
+    
+    <div class="blog-card">
+</div>
 
-    
-    
-    
     
 <div class="blog-card">
 	<div class="photo photo29"></div>
@@ -470,13 +473,30 @@ IAF conducts bombing raids inside Pakistan.
 		
 	</div>
 </div> 
-   
-    
-
 
     
 <!--END PEN CODE-->
   
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+        
+    
+    
+    
+<div class="blog-card" style="margin-top : 73px;"/>
   
 </body>
 </html>
